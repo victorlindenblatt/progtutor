@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Progtutor </title>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="style.css"/>
+    </head>
+
+<header>
+  <img src="imagem/Progtutor.jpg">
+</header>
+
+<form class="criarconta" action="php/php.php"> <!--Formulário Fale comigo-->
+    <div class="formulario">
+        <h1 id="Principal"> Criar conta </h1>
+        <br><br>
+            
+      
+      <label for="nome" >Nome:</label><br>
+      <input type="text" id="nome" name="nome"/><br>
+      <div class="erro" id="nome-erro"></div>
+      <br>
+      <label for="email" >Email:</label><br>
+      <input type="text" id="email" name="email" /><br>
+      <div class="erro" id="email-erro"></div>
+      <br>
+      <label for="celular" >Celular:</label><br>
+      <input type="text" id="celular" name="celular" required /><br>
+      <div class="erro" id="celular-erro"></div>
+      <br>
+      <label for="senha" >Senha:</label><br>
+      <input type="password" id="senha" name="senha" required /><br>
+      <div class="erro" id="senha-erro"></div>
+      <br>
+
+      <button class="btn-login">Criar conta</button> 
+    </form>
+

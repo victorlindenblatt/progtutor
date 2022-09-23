@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans & family= Open+Sans & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 7vw;
+}
+
+/*MENU*/
+
+header{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 100;
+}
+
+.container{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo, .login-home, .cadastro-home{
+    width: 20%;
+}
+
+.logo > img{
+    width: 125px;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu , nav,  a{
+    color:  #8015E8;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.menu, a:hover{
+    color: #F47141;
+}
+
+
+
+
+.login-home, button{
+    border: none;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    background-color: #FFFFFF;
+  }
+
+.login-home, button, i{
+    font-size: 20px;
+}
+.login-cadastro{
+    width: 115px;
+    height: 38px;
+    background-color: #F47141;
+    border: none;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.abc{
+    color: #FFFFFF;
+}
+
+
+
+/*Frases*/
+
+h1{
+    color: rgb(7, 3, 3);
+    padding: 30px;
+    
+    font-family: Arial, Helvetica, sans-serif, 'Open Sans';
+    font-size: 300%;
+}
+
+
+p{
+    color:blueviolet;
+    font-size: 30px;
+    font-family: arial;
+    color:rgb(10, 14, 14);   
+}
+
+
+
+/*formulário*/
+form{
+    margin: 0 auto;    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixatexto{
+    width: 280px;
+    border: 1px solid ;
+    box-shadow: 2px 2px 0px #8015E8;
+    margin: 0 auto;
+}
+.formulario {
+    padding: 25px;
+    color: #8015E8;
+    width: 250px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid #8015E8;
+    box-shadow: 2px 2px 0px rgb(31, 78, 121);
+    margin: 0 auto;
+}
+
+.erro {color: red;
+
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #8015E8;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #492b66;
+}
+
+
+
+

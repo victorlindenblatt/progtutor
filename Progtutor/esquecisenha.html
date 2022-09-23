@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Progtutor </title>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="style.css"/>
+    </head>
+
+<header>
+  <img src="imagem/Progtutor.jpg">
+</header>
+
+
+<form class="recuperar-senha" action="php/php.php"> <!--Formulário de login-->
+    <div class="formulario">
+        <h5 id="Principal"> Recuperar a senha </h5>
+        <br><br>
+            
+      <label for="email" >Email:</label><br>
+      <input type="text" id="email" name="email" /><br>
+      <div class="erro" id="email-erro"></div>
+      <br>
+
+      <input type="submit" value="enviar email" onClick="return validar()" />
+
+         </form>

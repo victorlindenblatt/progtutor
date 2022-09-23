@@ -1,0 +1,73 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <title> Área do Admin </title>
+        <link rel="stylesheet" href="CRUD.css" />
+    </head>
+    <body>
+            <h2>
+                CRUD
+            </h2>
+
+        <div class="block_create">
+            <h3> Criação de Mensagem (C) </h3>
+            <form action="php/create.php" method="GET">
+
+               
+    
+                <label for="nome">Nome: </label><br> 
+                <input class="caixatexto" type="text" name="nome">
+                <br><br>
+    
+                <label for="email">Email: </label><br> 
+                <input class="caixatexto" type="text" name="email">
+                <br><br>
+
+                <label for="celular">Celular: </label><br> 
+                <input class="caixatexto" type="text" name="celular">
+                <br><br>
+                
+                <label for="senha">senha: </label><br> 
+                <input class="caixatexto" type="text" name="senha">
+                <br><br>
+    
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+
+
+
+        <div class="block_read">
+            <h3> Leitura de Mensagens (R) </h3>
+                <form action="php/read.php" method="GET">
+                    <input type="submit" value="Buscar Todos" />
+                </form>
+        </div>
+
+        <div class="block_update">
+            <h3> Atualização de senha (U) </h3>
+            <form action="php/update.php" method="GET">
+            <label>Id: </label><br>
+            <input type="text" name="id" /><br>
+            
+            
+            
+            <label>Nome: </label><br>
+            <input type="text" name="nome" /><br>
+            <br>
+            <input type="submit" value="Atualizar"/>
+            </form>
+        </div>
+
+        <div class="block_delete">
+            <h3> Remoção de senha </h3>
+              <form action="php/delete.php" method="GET">
+                <label>Id: </label><br>
+                    <input type="text" name="id" /><br>
+                        <br>
+                    <input type="submit" value="Remover"/>
+                </form>
+        </div>
+
+    </body>
+</html>
